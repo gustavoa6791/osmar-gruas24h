@@ -1,0 +1,41 @@
+.logo-header {
+    margin: 0 2% 0 5%;
+    width: 200px;
+}
+
+.header-main {
+    display: flex;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(50deg, rgba(255, 255, 255, 1) 50%, #0a0057 50%);
+}
+
+.header-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    h3 {
+        color: #0a0057;
+    }
+
+}
+
+.header-right {
+    width: 50%;
+
+}
+
+.header-right-content {
+    display: flex;
+    align-items: center;
+
+    .phone {
+        margin-left: 5px;
+        color: white;
+    }
+
+    .email {
+        margin-left: 10%;
+    }
+}
